@@ -4,16 +4,16 @@ Flask-Login==0.6.2
 Werkzeug==2.3.0
 gunicorn==21.2.0
 psycopg2-binary==2.9.9
-```
+
 
 ### `Procfile`
 Loyihangiz ildiz papkasida yarating (kengaytmasiz):
-```
+
 web: gunicorn main:app
-```
+
 
 ### `.gitignore`
-```
+
 __pycache__/
 *.pyc
 *.pyo
@@ -23,4 +23,5 @@ instance/
 *.db
 venv/
 env/
+
 .env
